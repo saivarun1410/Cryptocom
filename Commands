@@ -11,7 +11,7 @@ On Success :
   √ Key saved successfully
 On Failure :
   ‼  Invalid file path  Please provide a valid file path
-Decryption : imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImage.format)
+Decryption : imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImageName.format)
 On Success : 
   √ Image read successfully
   √ Key read successfully
