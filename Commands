@@ -12,5 +12,12 @@ On Success :
 On Failure :
   ‼  Invalid file path  Please provide a valid file path
 Decryption : imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImage.format)
+On Success : 
+  √ Image read successfully
+  √ Key read successfully
+  √ Decryption successful
+  √ Image saved successfully
+ On Failure :
+  ‼  Invalid file path  Please provide a valid file path
 
 *** Format of the image in this process should be same across the two commands *** 
