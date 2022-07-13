@@ -1,0 +1,16 @@
+Installation : npm i -g imcrypt
+Encryption : imcrypt -e (ImageName.format) -i (encryptedImageName.format) -p keyFile.txt
+On Success : 
+  √ Image read successfully
+  √ Output image file name is valid
+  √ Output key file name is valid
+  √ Image data read successfully
+  √ Key generated successfully
+  √ Image encrypted successfully
+  √ Image saved successfully
+  √ Key saved successfully
+On Failure :
+  ‼  Invalid file path  Please provide a valid file path
+Decryption : imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImage.format)
+
+*** Format of the image in this process should be same across the two commands *** 
