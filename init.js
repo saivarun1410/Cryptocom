@@ -6,7 +6,7 @@ module.exports = ({ clear = true }) => {
 	unhandled();
 	welcome({
 		title: `imcrypt`,
-		tagLine: `by theninza`,
+		tagLine: `by varun`,
 		description: pkg.description,
 		version: pkg.version,
 		bgColor: '#36BB09',
