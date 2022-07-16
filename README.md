@@ -3,8 +3,26 @@ A CLI that helps in encrypting and decrypting an image with the help of a key , 
 # TechStack
 * https://nodejs.org/en/
 # Installation
-* npm i -g imcrypt
+* ___Command___ : npm i -g imcrypt
 # Encryption 
-* imcrypt -e (ImageName.format) -i (encryptedImageName.format) -p keyFile.txt
+* ___Command___ : imcrypt -e (ImageName.format) -i (encryptedImageName.format) -p keyFile.txt
+  * __On Success__ :
+    *   √ Image read successfully
+    *   √ Output image file name is valid
+    *   √ Output key file name is valid
+    *   √ Image data read successfully
+    *   √ Key generated successfully
+    *   √ Image encrypted successfully
+    *   √ Image saved successfully
+    *   √ Key saved successfully
+  * __On Failure__ :
+    *   ‼  Invalid file path  Please provide a valid file path
 # Decryption 
-* imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImageName.format)
+* ___Command___ : imcrypt -d (encryptedImageName.format) -k keyFile.txt -i (decryptedImageName.format)
+  * __On Success__ :
+     *  √ Image read successfully
+     *  √ Key read successfully
+     *  √ Decryption successful
+     *  √ Image saved successfully
+  * __On Failure__ :
+     *  ‼  Invalid file path  Please provide a valid file path
