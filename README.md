@@ -26,5 +26,13 @@ A CLI that helps in encrypting and decrypting an image with the help of a key , 
      *  √ Image saved successfully
   * __On Failure__ :
      *  ‼  Invalid file path  Please provide a valid file path
-
-
+# Command Options
+*  help$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # prints other options
+* -e, --encrypt$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # The image to encrypt
+* -d, --decrypt$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # The image to decrypt
+* -c, --clear$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # Clear the console Default: false
+* --noClear$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # Don't clear the console Default: true
+* -v, --version$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # Print CLI version Default: false
+* -k, --key$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # The key to use for decryption Default: false
+* -i, --outputImageFileName$~~~~~~~~~~~~~~~~~~~~~~$ # The output image
+* -p, --outputKeyFileName$~~~~~~~~~~~~~~~~~~~~~~~~~$ # The output key
