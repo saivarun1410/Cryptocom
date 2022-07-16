@@ -26,3 +26,5 @@ A CLI that helps in encrypting and decrypting an image with the help of a key , 
      *  √ Image saved successfully
   * __On Failure__ :
      *  ‼  Invalid file path  Please provide a valid file path
+
+
