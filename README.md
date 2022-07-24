@@ -36,3 +36,9 @@ A CLI that helps in encrypting and decrypting an image with the help of a key , 
 * -k, --key$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ # The key to use for decryption Default: false
 * -i, --outputImageFileName$~~~~~~~~~~~~~~~~~~~~~~$ # The output image
 * -p, --outputKeyFileName$~~~~~~~~~~~~~~~~~~~~~~~~~$ # The output key
+
+# Example :
+* Image to be encrypted :
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/98223018/180658962-4a8f5d02-171e-463c-998a-95c2cc74a57a.png">
+* Encrypted Image : 
+
