@@ -42,3 +42,6 @@ A CLI that helps in encrypting and decrypting an image with the help of a key , 
 <img width="413" alt="image" src="https://user-images.githubusercontent.com/98223018/180658962-4a8f5d02-171e-463c-998a-95c2cc74a57a.png">
 * Encrypted Image : 
 
+* Key : 
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/98223018/180659123-f1b0ab7b-e0e1-4914-a28f-1a1fef41f779.png">
+
